@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="https://vcdn1-vnexpress.vnecdn.net/2014/03/12/university-1394598740.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=A6PGQ8illP2wN4YK6bfxIw" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Dong A University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo esse maiores voluptatibus illum dolorem necessitatibus tempora obcaecati, a corporis incidunt est dolores commodi iure asperiores velit fuga eum dignissimos?</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit, natus hic ipsam ea, perspiciatis debitis dignissimos vero accusantium</p>
+</section>
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function ShowMenu(){
+        navlinks.style.right="0";
+    }
+    function HideMenu(){
+        navlinks.style.left="-200px"
+    }
+</script>
+
+</body>
+</html>
