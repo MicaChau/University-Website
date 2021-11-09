@@ -1,0 +1,105 @@
+body {
+    background: #edf4fd;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://cdn.britannica.com/85/13085-050-C2E88389/Corpus-Christi-College-University-of-Cambridge-England.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(234, 245, 78);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+button {
+    border-radius: 12px !important;
+}
+
+.header__logo__img {
+    height: 45px;
+}
+
+.des__title{
+    font-size: 60px;
+}
+
+.ads__img img{
+    border-radius: 12px !important;
+}
+
+.ads__text__element h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.course {
+    background-color: white;
+    border-radius: 12px !important;
+}
+.course__img {
+    width: 100%;
+    border-radius: 12px !important;
+}
+.course__category  {
+    background-color: whitesmoke;
+    border-radius: 8px !important;
+}
+.course__price {
+    color: blue;
+}
+.awesome__phai__icon{
+    background-color: rgba(248, 224, 3, 0.979);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
