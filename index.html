@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,24 @@
     <title>University</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
+
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="https://vcdn1-vnexpress.vnecdn.net/2014/03/12/university-1394598740.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=A6PGQ8illP2wN4YK6bfxIw" alt=""></a>
+            <a href="index.html"><img
+                    src="https://vcdn1-vnexpress.vnecdn.net/2014/03/12/university-1394598740.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=A6PGQ8illP2wN4YK6bfxIw"
+                    alt=""></a>
             <div class="nav-links" id="navlinks">
                 <i class="fas fa-times" onclick="HideMenu()"></i>
                 <ul>
@@ -30,23 +40,167 @@
         </nav>
         <div class="text-box">
             <h1>Dong A University</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo esse maiores voluptatibus illum dolorem necessitatibus tempora obcaecati, a corporis incidunt est dolores commodi iure asperiores velit fuga eum dignissimos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo esse maiores voluptatibus
+                illum dolorem necessitatibus tempora obcaecati, a corporis incidunt est dolores commodi iure asperiores
+                velit fuga eum dignissimos?</p>
             <a href="" class="hero-btn">Visit Us To Know More</a>
         </div>
     </section>
-<section class="course">
-    <h1>Courses We Offer</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit, natus hic ipsam ea, perspiciatis debitis dignissimos vero accusantium</p>
-</section>
-<script>
-    var navlinks = document.getElementById("navlinks");
-    function ShowMenu(){
-        navlinks.style.right="0";
-    }
-    function HideMenu(){
-        navlinks.style.left="-200px"
-    }
-</script>
-
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit, natus hic ipsam ea, perspiciatis debitis
+            dignissimos vero accusantium</p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function ShowMenu() {
+            navlinks.style.right = "0";
+        }
+        function HideMenu() {
+            navlinks.style.left = "-200px"
+        }
+    </script>
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provider Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="https://nq.com.vn/wp-content/uploads/2021/05/e-commerce-la-gi-uu-va-nhuoc-diem-cua-e-commerce_609f4cc138666.png"
+                    alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Beard Trim</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida
+                        porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="https://nq.com.vn/wp-content/uploads/2021/05/e-commerce-la-gi-uu-va-nhuoc-diem-cua-e-commerce_609f4cc138666.png"
+                    alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Cut</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida
+                        porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="https://nq.com.vn/wp-content/uploads/2021/05/e-commerce-la-gi-uu-va-nhuoc-diem-cua-e-commerce_609f4cc138666.png"
+                    alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida
+                        porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="https://nq.com.vn/wp-content/uploads/2021/05/e-commerce-la-gi-uu-va-nhuoc-diem-cua-e-commerce_609f4cc138666.png"
+                    alt="">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Dry Shampoo</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida
+                        porttitor urna tincidunt sollicitudin. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What client says</h1>
+        </div>
+        <div class="testtimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-1.png" alt="">
+                    <div class="user-info">
+                        <h4>KEN NORMAN <i class="bi bi-twitter"></i></h4>
+                        <small>@kennorman</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida
+                    porttitor urna tincidunt sollicitudin. </p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-2.png" alt="">
+                    <div class="user-info">
+                        <h4>KARIAN NICK <i class="bi bi-twitter"></i></h4>
+                        <small>@kariannick</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida
+                    porttitor urna tincidunt sollicitudin. </p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="images/img-3.png" alt="">
+                    <div class="user-info">
+                        <h4>DIARA JAMES <i class="bi bi-twitter"></i></h4>
+                        <small>@diarajames</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis semper orci. Sed gravida
+                    porttitor urna tincidunt sollicitudin. </p>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <img src="https://nv.edu.vn/wp-content/uploads/2021/06/university-la-gi-5-e1623475349417.png"
+            class="footer-img">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening hours</h1>
+                <p><i class="bi bi-clock"></i>Monday to Friday - 9am to 9pm</p>
+                <p><i class="bi bi-clock"></i>Monday to Friday - 9am to 9pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>#30 abc, xyz <i class="bi bi-geo-alt"></i></p>
+                <p>example@website.com <i class="bi bi-paperclip"></i></p>
+                <p>+012345890 <i class="bi bi-phone"></i></p>
+            </div>
+            <div class="social-links">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+                <p>Copyright blablablablabla</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            } else {
+                sideNav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+        // All animations will take exactly 1000ms
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
 </body>
+
 </html>
